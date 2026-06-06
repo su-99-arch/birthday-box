@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #0F172A;
+  color: #F8FAFC;
+}
+
+/* 隐藏原生滚动条，保留丝滑滚动感 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+::-webkit-scrollbar-thumb {
+  background: #4FC3F7;
+  border-radius: 3px;
+}
+
+/* 无限平移星空背景 */
+.stars {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1.5px, transparent 1.5px);
+  background-size: 80px 80px, 140px 140px;
+  background-position: 0 0, 40px 40px;
+  opacity: 0.25;
+  animation: moveStars 40s linear infinite;
+}
+
+@keyframes moveStars {
+  from { transform: translateY(0); }
+  to { transform: translateY(-1000px); }
+}
