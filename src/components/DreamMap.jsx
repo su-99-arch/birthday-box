@@ -16,7 +16,7 @@ export default function DreamMap() {
     <section className="min-h-screen w-screen bg-nightTheme flex flex-col justify-center items-center py-20 px-4">
       <div className="max-w-4xl w-full space-y-12 relative">
         <div className="text-center">
-          <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-skyTheme to-grassTheme">第六部分：梦想地图</h2>
+          <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-emerald-400">梦想地图</h2>
           <p className="text-slate-400 text-sm mt-3">点击对应坐标，探索埋藏在四个关键成长领域的梦想锚点</p>
         </div>
 

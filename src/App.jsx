@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Profile from "./components/Profile";
 import Timeline from "./components/Timeline";
+import TwoOfUs from "./components/TwoOfUs";
 import SecretLetter from "./components/SecretLetter";
 import LevelUp from "./components/LevelUp";
 import FutureMail from "./components/FutureMail";
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Profile />
       <Timeline />
+      <TwoOfUs />
       <SecretLetter />
       <LevelUp />
       <FutureMail />

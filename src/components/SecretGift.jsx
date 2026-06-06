@@ -9,7 +9,7 @@ export default function SecretGift() {
 
   const verify = () => {
     // 默认解密金钥匙：20140606 或 20140618 等，可在此自定义
-    if (password === "20140606") {
+    if (password === "20140702") {
       setIsUnlocked(true);
       setError(false);
     } else {
@@ -22,7 +22,7 @@ export default function SecretGift() {
     <section className="min-h-screen w-screen bg-nightTheme flex flex-col justify-center items-center py-20 px-4">
       <div className="max-w-2xl w-full space-y-8">
         <div className="text-center">
-          <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">第七部分：生日彩蛋</h2>
+          <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">生日彩蛋</h2>
           <p className="text-slate-400 text-sm mt-3">提示：输入属于冒险者的8位出生年月日密码解锁数字金库</p>
         </div>
 

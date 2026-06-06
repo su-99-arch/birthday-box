@@ -14,7 +14,7 @@ export default function Profile() {
     <section id="profile" className="min-h-screen w-screen bg-gradient-to-b from-grassTheme to-nightTheme flex flex-col justify-center items-center py-20 px-4">
       <div className="max-w-4xl w-full space-y-12">
         <div className="text-center">
-          <h2 className="text-3xl md:text-5xl font-black text-white">第一部分：成长档案</h2>
+          <h2 className="text-3xl md:text-5xl font-black text-white">成长档案</h2>
           <p className="text-white/60 text-sm mt-3">系统检测到当前冒险者属性面板已刷新</p>
         </div>
 
@@ -29,7 +29,7 @@ export default function Profile() {
               </div>
             </div>
             <div className="space-y-4 border-t border-white/10 pt-4 text-slate-200 text-sm">
-              <p><span className="text-slate-400 font-medium">专属称号：</span> 👑 阳光运动员</p>
+              <p><span className="text-slate-400 font-medium">专属称号：</span> 👑 阳光小少年</p>
               <p><span className="text-slate-400 font-medium">当前生命值：</span> 100% (元气满满)</p>
               <p><span className="text-slate-400 font-medium">核心被动：</span> 永葆对世界的热爱与好奇心</p>
             </div>

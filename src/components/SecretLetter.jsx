@@ -6,7 +6,7 @@ export default function SecretLetter() {
     <section className="min-h-screen w-screen bg-nightTheme flex flex-col justify-center items-center py-20 px-4">
       <div className="max-w-3xl w-full space-y-10">
         <div className="text-center">
-          <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-500">第三部分：表姐的秘密留言</h2>
+          <h2 className="text-3xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-500">秘密留言</h2>
         </div>
 
         <GlassCard className="bg-slate-950/40 border border-yellow-500/20 p-8 md:p-12 relative rounded-3xl shadow-[0_0_50px_rgba(234,179,8,0.05)]">
@@ -25,7 +25,7 @@ export default function SecretLetter() {
           </div>
 
           <div className="text-right border-t border-white/5 pt-6 mt-6">
-            <p className="font-bold text-xl text-yellow-400 font-serif">—— 爱你的表姐 👩‍💻</p>
+            <p className="font-bold text-xl text-yellow-400 font-serif">—— 爱你的家人 👩‍💻</p>
             <p className="text-xs text-slate-500 font-mono mt-1">2026年盛夏 · 留</p>
           </div>
         </GlassCard>
