@@ -34,8 +34,8 @@ const events = [
   { year: "2025", title: "泡面 🍜", image: "/photos/泡面.jpg", text: "春节兄弟姐妹欢聚一堂，最适合分食泡面啦。" },
   { year: "2025", title: "恩施之旅 🗺️", image: "/photos/恩施.jpg", text: "步履不停！打卡奇幻的恩施大峡谷，用双脚丈量祖国的壮丽山河，见识更广阔的世界。" },
   { year: "2026", title: "晋升哥哥 👦", image: "/photos/哥哥.jpg", text: "家里多了一个抢玩具的‘赛博神兽’，但我可是顶天立地的哥哥，以后我罩着他！" },
+   { year: "2026", title: "春节 🧨", image: "/photos/春节.jpg", text: "张灯结彩，爆竹声声！收红包收到手软，热热闹闹地和最爱的家人们一起守岁迎新。" },
   { year: "2026", title: "襄阳古城一游 🏯", image: "/photos/襄城.jpg", text: "漫步在青砖黛瓦的古道上，登临古城墙，仿佛一不小心穿越回了千年前的江湖！" },
-  { year: "2026", title: "春节 🧨", image: "/photos/春节.jpg", text: "张灯结彩，爆竹声声！收红包收到手软，热热闹闹地和最爱的家人们一起守岁迎新。" },
   { year: "2026", title: "十二岁 🎂", image: "/photos/birthday12.jpg", text: "Lv.12 成就完美解锁！个子拔高了，肩膀结实了，正式迎来热烈璀璨的少年纪元！" }
 ];
 
