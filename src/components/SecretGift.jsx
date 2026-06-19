@@ -54,19 +54,20 @@ export default function SecretGift() {
               
               {/* 多媒体插槽 */}
               <div className="space-y-4 max-w-lg mx-auto">
-                <div className="aspect-video w-full rounded-2xl bg-slate-950 border border-white/5 overflow-hidden flex flex-col items-center justify-center relative">
-                  <video controls src="/videos/family.mp4" className="w-full h-full object-cover" />
-                  {/* 若无视频，自动降级为文案显示 */}
-                  <div className="absolute inset-0 bg-slate-950 flex flex-col items-center justify-center text-slate-500 text-xs pointer-events-none p-4">
-                    <span>🎬 家族祝福短片视频插槽</span>
-                    <span className="text-[10px] mt-1 text-slate-600">(将视频重命名为 family.mp4 放入 public/videos 目录下即可显示)</span>
+                <div className="w-full rounded-2xl bg-slate-950 border border-white/5 overflow-hidden flex flex-col items-center justify-center relative">
+                  <img src="/photos/birthday-poster.jpg" alt="12岁生日快乐" className="w-full h-auto object-cover relative z-10 font-sans" onError={(e) => e.target.style.display = 'none'} />
+                  {/* 若无图片，自动降级为文案显示 */}
+                  <div className="absolute inset-0 bg-slate-950 flex flex-col items-center justify-center text-slate-500 text-xs pointer-events-none p-4 z-0">
+                    <span>🖼️ 生日贺卡图片插槽</span>
+                    <span className="text-[10px] mt-1 text-slate-600">(请将发出的图片保存为 birthday-poster.jpg 并放入 public/photos 目录下)</span>
                   </div>
                 </div>
 
+                {/* 生日快乐歌播放器 */}
                 <div className="bg-slate-950/80 p-4 rounded-xl border border-white/5 flex flex-col items-center justify-center relative">
-                  <audio controls src="/audio/blessing.mp3" className="w-full" />
+                  <audio controls autoPlay loop src="/audio/happy-birthday.mp3" className="w-full h-10" />
                   <div className="text-[10px] text-slate-600 mt-2">
-                    🎵 背景独白原声带插槽 (音频放于 public/audio/blessing.mp3)
+                    🎵 生日快乐歌 (请将音乐文件命名为 happy-birthday.mp3 并放入 public/audio 目录下)
                   </div>
                 </div>
               </div>
